@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.27实验</title>
+    <!-- 内嵌式CSS -->
+    <style>
+        body {
+            background-color: #caeffa;
+            margin: 0;
+            padding: 20px;
+        }
+    </style>
+    <!-- 链入式CSS -->
+    <link rel="stylesheet" href="古诗.css">
+    <!-- 导入式CSS -->
+    <style>
+        @import url('古诗.css');
+    </style>
+</head>
+<body>
+    <h1>CSS概述与基本样式应用</h1>
+    <!-- 行内式CSS -->
+    
+    <div class="content1">
+        <h2 style="color: rgb(52, 110, 88); text-align: center;"> 饮湖上初晴后雨二首 </h2>
+        <p> 水光潋滟晴方好，山色空蒙雨亦奇。 </p>
+        <p class="content2"> 欲把西湖比西子，淡妆浓抹总相宜。 </p>
+    </div>
+    <hr>
+
+    <h1>CSS选择器</h1>
+    <div class="text01">
+        <h2 style="color: rgb(52, 110, 88);;">和潞公超然台次韵</h2>
+        <p class="text11">我公厌富贵，常苦勋业寻。</p>
+        <p class="text12">相期赤松子，永望白云岑。</p>
+        <div id="box1">
+            清风出谈笑，万窍为号吟。
+        </div>
+        
+        <div class="text02">
+            <p>吟成超然诗，洗我蓬之心。</p>
+            <div>
+                <p>嗟我本何人，麋鹿强冠襟。</p>
+            </div>
+        </div>
+        
+        <a href="#">链接1</a>
+        <a href="#" class="external">链接2</a>
+
+    </div>
+
+    <hr>
+
+    <h1>综合应用与页面布局</h1>
+    <div class="flexible">
+    <h2 style="color: rgb(52, 110, 88); text-align: center;"> 东栏梨花 </h2>
+    <div class="flexible1">
+        <p>  梨花淡白柳深青，柳絮飞时花满城。</p>
+        <p class="flexible2">  惆怅东栏一株雪，人生看得几清明。 </p>
+    </div>
+    </div>
+    <hr>
+    <footer class="site-footer">
+        <p>&copy;苏轼网站</p>
+        <p>创建人：马瑞  2025.3.27</p>
+    </footer>
+</body>
+</html>

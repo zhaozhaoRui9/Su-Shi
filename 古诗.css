@@ -1,0 +1,43 @@
+/* 链入式CSS文件 */
+.content1{
+    font-size: larger;
+    font-family: "LiSu", "隶书", sans-serif;
+    background-color: #ffffcc;
+    text-align: center;
+}
+
+.content2 {
+    font-family: "LiSu", "隶书", sans-serif;
+    background-color: #ffffcc;
+    padding: 5px;
+}
+
+.text01{
+    font-size: larger;
+    font-family: "LiSu", "隶书", sans-serif;
+    text-align: center;
+    background-color: #f8e1e8;
+}
+.text02{
+    font-size: larger;
+    font-family: "LiSu", "隶书", sans-serif;
+    text-align: center;
+    background-color: #f5abc1;
+}
+.flexible1{
+    font-size: larger;
+    font-family: "LiSu", "隶书", sans-serif;
+    background-color: #7af7dc;
+    text-align: center;
+}
+
+.flexible2 {
+
+    font-family: "LiSu", "隶书", sans-serif;
+    background-color: #7af7dc;
+    padding: 5px;
+}
+
+.site-footer{
+    text-align: center;
+}
